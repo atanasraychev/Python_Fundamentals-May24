@@ -11,7 +11,7 @@ for i in range(letters):
     char = second_word[0:i+1]
 
     # extracting the caracters from the first word from the i+1 position until the end for each itteration
-    first_word = first_word[i+1:letters]
+    first_word = first_word[i+1:]
 
     # concat / merge both strings
     first_word = char + first_word
